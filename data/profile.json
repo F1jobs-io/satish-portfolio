@@ -46,7 +46,7 @@
       "title": "Reliability Engineer (Hardware)",
       "authors": "Harbinger Motors Inc | USA",
       "venue": "Aug 2024 – May 2025",
-      "description": "<div class='impact-metrics'><span class='metric'>$28M Lifecycle Savings</span><span class='metric'>$5M Annual Savings</span><span class='metric'>Battery Cooling Systems</span><span class='metric'>OCP Standards Compliance</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Orchestrated DFMEA for battery cooling tube coatings</strong>, producing a comprehensive validation plan that <span class='highlight'>projected $28M in lifecycle savings</span> through systematic failure mode analysis and risk mitigation strategies<br/>• <strong>Devised accelerated life-stress models</strong>, precisely calculating test duration and sample size requirements to <span class='highlight'>validate reliability under real-world operating conditions</span> for electric vehicle applications<br/>• <strong>Investigated busbar insulation failure modes</strong> through extensive material validation studies (DSC, DMA, TMA, TGA, EDS), <span class='highlight'>ensuring durability and performance in Mini-truck applications</span> under extreme operating conditions<br/>• <strong>Validated conformal coating materials</strong> via High Temperature High Humidity Endurance (HTHE), thermal shock, and coolant dunk tests, <span class='highlight'>securing $5M annual savings</span> through improved material selection and application processes<br/>• <strong>Directed field failure analysis programs</strong>, systematically isolating root causes, implementing corrective actions, and <span class='highlight'>extending product uptime across fleet operations</span><br/>• <strong>Partnered with semiconductor teams</strong> to evaluate power modules under liquid-cooled conditions, <span class='highlight'>improving module resilience and thermal performance</span> in high-power automotive applications<br/>• <strong>Formulated reliability protocols</strong> for immersion cooling systems, introducing in-situ corrosion monitoring and High Temperature Operating Life (HTOL) validation methodologies<br/>• <strong>Conducted thermomechanical characterization</strong> of substrate and die attach materials per OCP standards, <span class='highlight'>enhancing design robustness and compliance</span> with industry reliability requirements",
+      "description": "<div class='impact-metrics'><span class='metric'>$28M Lifecycle Savings</span><span class='metric'>$5M Annual Savings</span><span class='metric'>Battery Cooling Systems</span><span class='metric'>OCP Standards Compliance</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Orchestrated DFMEA for battery cooling tube coatings</strong>, producing a comprehensive validation plan that <span class='highlight'>projected $28M in lifecycle savings</span> through systematic failure mode analysis and risk mitigation strategies<br/>• <strong>Devised accelerated life-stress models</strong>, precisely calculating test duration and sample size requirements to <span class='highlight'>validate reliability under real-world operating conditions</span> for electric vehicle applications<br/>• <strong>Investigated busbar insulation failure modes</strong> through extensive material validation studies (DSC, DMA, TMA, TGA, EDS), <span class='highlight'>ensuring durability and performance in Mini-truck applications</span> under extreme operating conditions<br/>• <strong>Validated conformal coating materials</strong> via High Temperature High Humidity Endurance (HTHE), thermal shock, and coolant dunk tests, <span class='highlight'>securing $5M annual savings</span> through improved material selection and application processes<br/>• <strong>Directed field failure analysis programs</strong>, systematically isolating root causes, implementing corrective actions, and <span class='highlight'>extending product uptime across fleet operations</span><br/>• <strong>Partnered with semiconductor teams</strong> to evaluate power modules under liquid-cooled conditions, <span class='highlight'>improving module resilience and thermal performance</span> in high-power automotive applications<br/>• <strong>Formulated reliability protocols</strong> for immersion cooling systems, introducing in-situ corrosion monitoring and High Temperature Operating Life (HTOL) validation methodologies<br/>• <strong>Conducted thermomechanical characterization</strong> of substrate and die attach materials per OCP standards, <span class='highlight'>enhancing design robustness and compliance</span> with industry reliability requirements<br/>• <strong>Developed predictive reliability dashboards</strong> integrating test data with statistical models, <span class='highlight'>enabling proactive failure prevention</span> through advanced data analytics and predictive maintenance strategies",
       "image": "images/harbinger-motors-logo.png",
       "links": {
         "paper": null,
@@ -85,19 +85,19 @@
   "skills": {
     "designCADSoftware": [
       "AutoCAD (Computer-Aided Design)",
-      "SolidWorks (3D CAD Modeling)",
+      "SolidWorks (3D CAD Modeling Software)",
       "Pro/ENGINEER (Pro-E, now Creo Parametric)",
       "Siemens NX (UG NX – Unigraphics NX)",
-      "Windchill (Product Lifecycle Management)",
+      "Windchill (Product Lifecycle Management Software)",
       "Teamcenter PLM (Product Lifecycle Management)"
     ],
     "reliabilityQualityEngineering": [
       "DFMEA (Design Failure Mode and Effects Analysis)",
-      "DFM/DFA (Design for Manufacturability/Assembly)",
-      "GD&T (Geometric Dimensioning and Tolerancing – ASME Y14.5)",
+      "DFM/DFA (Design for Manufacturability / Design for Assembly)",
+      "GD&T (Geometric Dimensioning and Tolerancing – ASME Y14.5 Standard)",
       "HTHE (High Temperature High Humidity Endurance Testing)",
-      "HTOL (High Temperature Operating Life Testing)",
-      "Field Failure Analysis (FFA)",
+      "HTOL (High Temperature Operating Life Testing – Semiconductor Reliability)",
+      "Field Failure Analysis (FFA – Real-World Failure Investigation)",
       "Risk Mitigation Strategies",
       "Root Cause Analysis"
     ],
@@ -111,12 +111,11 @@
       "Structural Analysis"
     ],
     "collaborationProcessTools": [
-      "Confluence (Knowledge Management)",
-      "Polarion (Application Lifecycle Management)",
-      "QC (Quality Control Documentation)",
-      "ECR (Engineering Change Request)",
-      "ECN (Engineering Change Notice)",
-      "Stage-Gate PDP (Product Development Process)"
+      "Confluence (Team Collaboration & Knowledge Management Tool)",
+      "Polarion (Application Lifecycle Management Platform)",
+      "QC (Quality Control Documentation & Client Presentations)",
+      "ECR (Engineering Change Request) & ECN (Engineering Change Notice)",
+      "Stage-Gate PDP (Product Development Process – Structured New Product Introduction Framework)"
     ],
     "engineeringStandards": [
       "ASME Y14.5 (Geometric Dimensioning and Tolerancing)",

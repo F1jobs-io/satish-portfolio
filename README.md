@@ -1,6 +1,11 @@
-# Dynamic Portfolio Template
+# Venkata Sai Satish Somesula – Portfolio Website
 
-A modern, responsive academic/research portfolio website template that loads content dynamically from JSON. Built on HTML5 UP's Editorial template with extensive customization for easy profile switching.
+A modern, JSON-driven portfolio showcasing Mechanical Design & Reliability Engineering experience, projects, and skills.
+
+## Live
+
+- Production: https://satish-somesula.com
+- Fallback (GitHub Pages): https://satish-somesula.github.io
 
 ## Features
 
@@ -145,18 +150,13 @@ Edit the theme colors in `profile.json`:
 
 ## Deployment
 
-### GitHub Pages
+GitHub Pages via Actions (no build step). See `README_DEPLOY.md` for step-by-step instructions and DNS records.
 
-1. Push your customized repository to GitHub
-2. Go to Settings → Pages
-3. Select source: Deploy from branch (main)
-4. Your site will be available at `https://yourusername.github.io/repository-name`
+## Recent Updates
 
-### Custom Domain
-
-1. Add a `CNAME` file with your domain
-2. Configure DNS settings with your domain provider
-3. Enable HTTPS in GitHub Pages settings
+- Mobile-first hero typography and layout
+- Redesigned mobile menu button and smaller header logo
+- Added university logos and retractable skills
 
 ### Local Development
 
@@ -229,5 +229,5 @@ For issues or questions:
 
 ---
 
-Made for Salesforce professionals and administrators# Personal_site
+Made for mechanical design and reliability engineering professionals# Personal_site
 # Personal_site

@@ -7,7 +7,7 @@ set -euo pipefail
 # - GitHub CLI installed: https://cli.github.com/
 # - Run: gh auth login   (or export GH_TOKEN and run: echo "$GH_TOKEN" | gh auth login --with-token)
 
-REPO_NAME_DEFAULT="deepak-rambarki.github.io"
+REPO_NAME_DEFAULT="satish-somesula.github.io"
 
 echo ":: GitHub Pages deployment script ::"
 
@@ -71,9 +71,9 @@ echo
 echo "Push complete. GitHub Actions will deploy to Pages automatically."
 echo "Next steps:"
 echo "  1) Open: https://github.com/$GH_USER/$REPO_NAME/actions and watch 'Deploy to GitHub Pages' run."
-echo "  2) Set custom domain (if desired): Repo → Settings → Pages → Custom domain: deepakrambarki.com"
+echo "  2) Set custom domain (if desired): Repo → Settings → Pages → Custom domain: satish-somesula.com"
 echo "  3) Enable 'Enforce HTTPS' once the certificate is issued."
 echo
-echo "If you haven't already, configure DNS for deepakrambarki.com to point to GitHub Pages."
+echo "If you haven't already, configure DNS for satish-somesula.com to point to GitHub Pages."
 echo "See README_DEPLOY.md for the exact DNS records."
 

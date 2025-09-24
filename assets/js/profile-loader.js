@@ -594,25 +594,15 @@
 
     function getSkillsCategories() {
         return [
-            { key: 'programming', label: 'Programming & Scripting' },
-            { key: 'bigDataTechnologies', label: 'Big Data Technologies' },
-            { key: 'dataProcessing', label: 'Data Processing Frameworks' },
-            { key: 'cloudPlatforms', label: 'Cloud Platforms & Services' },
-            { key: 'databases', label: 'Databases & Storage' },
-            { key: 'dataWarehousing', label: 'Data Warehousing & Modeling' },
-            { key: 'etlTools', label: 'ETL & Integration Tools' },
-            { key: 'dataGovernance', label: 'Data Quality & Governance' },
-            { key: 'versionControl', label: 'Version Control & Collaboration' },
-            { key: 'containerization', label: 'Containerization & DevOps' },
-            { key: 'monitoring', label: 'Monitoring & Logging' },
-            { key: 'visualization', label: 'Visualization & Reporting' },
-            { key: 'methodologies', label: 'Methodologies' },
-            { key: 'softSkills', label: 'Professional Skills' },
-            // Legacy fallbacks (in case present)
-            { key: 'toolsAndDevOps', label: 'Tools & DevOps' },
-            { key: 'analyticsTools', label: 'Analytics & Data' },
-            { key: 'integrationTools', label: 'Integration & Tools' },
-            { key: 'otherTools', label: 'Productivity Tools' }
+            { key: 'designCADSoftware', label: 'Design & CAD Software' },
+            { key: 'simulationAnalysis', label: 'Simulation & Analysis' },
+            { key: 'reliabilityQualityEngineering', label: 'Reliability & Quality Engineering' },
+            { key: 'collaborationProcessTools', label: 'Collaboration & Process Tools' },
+            { key: 'engineeringStandards', label: 'Engineering Standards' },
+            { key: 'materialsValidation', label: 'Materials & Validation' },
+            { key: 'industryDomains', label: 'Industry Domains' },
+            { key: 'projectManagement', label: 'Project Management' },
+            { key: 'softSkills', label: 'Professional Skills' }
         ];
     }
 
@@ -644,24 +634,15 @@
     function getCategoryIcon(key) {
         const svgProps = 'width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"';
         const icons = {
-            programming: `<svg ${svgProps}><path d="M16 18l6-6-6-6"/><path d="M8 6L2 12l6 6"/></svg>`,
-            bigDataTechnologies: `<svg ${svgProps}><circle cx="7" cy="12" r="3"/><circle cx="17" cy="7" r="3"/><circle cx="17" cy="17" r="3"/><path d="M10 12h4M14 7l-1 2M14 17l-1-2"/></svg>`,
-            dataProcessing: `<svg ${svgProps}><rect x="3" y="4" width="7" height="6" rx="1"/><rect x="14" y="4" width="7" height="6" rx="1"/><rect x="3" y="14" width="7" height="6" rx="1"/><path d="M10 7h4M7 10v4M17 10v4"/></svg>`,
-            cloudPlatforms: `<svg ${svgProps}><path d="M18 18H7a4 4 0 010-8 5 5 0 019.5 1.5A3.5 3.5 0 0118 18z"/></svg>`,
-            databases: `<svg ${svgProps}><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>`,
-            dataWarehousing: `<svg ${svgProps}><path d="M3 7l9-5 9 5v10l-9 5-9-5V7z"/><path d="M3 12l9 5 9-5"/></svg>`,
-            etlTools: `<svg ${svgProps}><path d="M3 7h6v6H3zM9 10h6M15 10v4M15 14h6"/></svg>`,
-            dataGovernance: `<svg ${svgProps}><path d="M12 2l7 4v6c0 5-3 8-7 10-4-2-7-5-7-10V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg>`,
-            versionControl: `<svg ${svgProps}><circle cx="6" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="12" r="2"/><path d="M8 6h6a4 4 0 014 4v0M8 18h6a4 4 0 004-4v0"/></svg>`,
-            containerization: `<svg ${svgProps}><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M7 7v10M12 7v10M17 7v10"/></svg>`,
-            monitoring: `<svg ${svgProps}><path d="M3 12h3l3 6 4-12 3 6h5"/></svg>`,
-            visualization: `<svg ${svgProps}><rect x="3" y="10" width="4" height="10"/><rect x="10" y="6" width="4" height="14"/><rect x="17" y="3" width="4" height="17"/></svg>`,
-            methodologies: `<svg ${svgProps}><path d="M4 6h16M4 12h12M4 18h8"/></svg>`,
-            softSkills: `<svg ${svgProps}><path d="M12 12a5 5 0 100-10 5 5 0 000 10z"/><path d="M20 21a8 8 0 10-16 0"/></svg>`,
-            toolsAndDevOps: `<svg ${svgProps}><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg>`,
-            analyticsTools: `<svg ${svgProps}><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 4-5"/></svg>`,
-            integrationTools: `<svg ${svgProps}><path d="M7 7h10v10H7z"/><path d="M2 12h5M17 12h5"/></svg>`,
-            otherTools: `<svg ${svgProps}><path d="M12 2l3 5-3 5-3-5 3-5z"/><path d="M5 19h14M5 22h14"/></svg>`
+            designCADSoftware: `<svg ${svgProps}><rect x="3" y="4" width="18" height="14" rx="2" fill="none"/><path d="M7 8h2v2H7zM11 8h6M11 12h6M7 12h2v2H7z"/></svg>`,
+            simulationAnalysis: `<svg ${svgProps}><circle cx="12" cy="12" r="1"/><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8z"/><path d="M8 12h8M12 8v8M9.5 9.5l5 5M14.5 9.5l-5 5"/></svg>`,
+            reliabilityQualityEngineering: `<svg ${svgProps}><path d="M12 2l7 4v6c0 5-3 8-7 10-4-2-7-5-7-10V6l7-4z"/><path d="M9 12l2 2 4-4"/></svg>`,
+            collaborationProcessTools: `<svg ${svgProps}><circle cx="9" cy="7" r="4"/><path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0-3-3.85"/></svg>`,
+            engineeringStandards: `<svg ${svgProps}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>`,
+            materialsValidation: `<svg ${svgProps}><path d="M12 2l1.09 3.26L16 6.85l-2.76 2.16L14.18 12 12 10.85 9.82 12l.94-2.99L8 6.85l2.91-1.59L12 2z"/><circle cx="12" cy="17" r="3"/></svg>`,
+            industryDomains: `<svg ${svgProps}><path d="M3 9a9 9 0 1 1 18 0v2h-3l-2-2-2 2-2-2-2 2-2-2-2 2H3V9z"/><path d="M21 16a2 2 0 0 1-2 2h-1l-1-1v4l-1 2-2-2v-4l-1 1H8a2 2 0 0 1-2-2v-2"/></svg>`,
+            projectManagement: `<svg ${svgProps}><rect x="3" y="4" width="18" height="12" rx="2" fill="none"/><path d="M7 8l3 3 5-5"/></svg>`,
+            softSkills: `<svg ${svgProps}><path d="M12 12a5 5 0 100-10 5 5 0 000 10z"/><path d="M20 21a8 8 0 10-16 0"/></svg>`
         };
         return icons[key] || `<svg ${svgProps}><circle cx="12" cy="12" r="9"/></svg>`;
     }
